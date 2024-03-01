@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ContactsConfig(AppConfig):
+class ApiConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apps.contacts'
+    name = 'api'
